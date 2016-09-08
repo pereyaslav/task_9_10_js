@@ -1,0 +1,340 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #F0EFE7;
+	font: 15px/1.5 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #4E443C;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 18px;
+	color: #4b395b;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+.sub1-wrapper {
+	height: 520px;
+	padding-top: 25px;
+	/*	background: #decdf6;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeebf4+0,decdf6+0,eeebf4+100 */
+	background: #eeebf4;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #eeebf4 0%, #decdf6 0%, #eeebf4 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #eeebf4 0%, #decdf6 0%, #eeebf4 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #eeebf4 0%, #decdf6 0%, #eeebf4 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#eeebf4', endColorstr='#eeebf4', GradientType=0);
+	/* IE6-9 */
+}
+
+.img1 {
+	margin-left: 50px;
+}
+
+.sub2-wrapper {
+	/*
+	height: 3px;
+	background: #b989fc;
+*/
+}
+
+.sub3-wrapper {
+	height: 400px;
+	background: #decdf6;
+}
+
+
+/** Carousel **/
+
+.jcarousel-wrapper {
+	margin: 0px auto;
+	position: relative;
+	border: 10px solid #fff;
+	width: 600px;
+	height: 400px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 2px #999;
+	-moz-box-shadow: 0 0 2px #999;
+	box-shadow: 0 0 2px #999;
+}
+
+.jcarousel-wrapper a {
+	color: #fff;
+}
+
+.jcarousel {
+	position: relative;
+	overflow: hidden;
+}
+
+.jcarousel ul {
+	width: 20000em;
+	position: relative;
+	/*	list-style: none;*/
+	margin: 0;
+	padding: 0;
+}
+
+.jcarousel li {
+	float: left;
+}
+
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+	position: absolute;
+	top: 200px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #3b2757;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0 0 2px #999;
+	-moz-box-shadow: 0 0 2px #999;
+	box-shadow: 0 0 2px #999;
+}
+
+.jcarousel-control-prev {
+	left: -50px;
+}
+
+.jcarousel-control-next {
+	right: -50px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+	display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+	opacity: .5;
+	cursor: default;
+}
+
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+}
+
+.jcarousel-pagination a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 11px;
+	line-height: 14px;
+	min-width: 14px;
+	background: #fff;
+	color: #4E443C;
+	border-radius: 14px;
+	padding: 3px;
+	text-align: center;
+	margin-right: 2px;
+	opacity: .75;
+}
+
+.jcarousel-pagination a.active {
+	background: #3b2757;
+	color: #fff;
+	opacity: 1;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
+
+
+/*--   menu -----*/
+
+.menu {
+	width: 960px;
+	margin: 0 auto;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3a2854+33,704ca2+100 */
+	background: #3a2854;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #3a2854 33%, #704ca2 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #3a2854 33%, #704ca2 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #3a2854 33%, #704ca2 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3a2854', endColorstr='#704ca2', GradientType=0);
+	/* IE6-9 */
+	text-align: center;
+}
+
+.menu > li {
+	border-left: 1px solid #bb8cfd;
+}
+
+.menu > li:last-child {
+	border-right: 1px solid #bb8cfd;
+}
+
+.menu li {
+	display: inline-block;
+	position: relative;
+}
+
+.menu li ul {
+	background-color: #3a2854;
+	position: absolute;
+	left: 0;
+	top: 40px;
+	width: 152px;
+}
+
+.menu li li {
+	position: relative;
+	display: block;
+}
+
+.menu li li ul {
+	position: absolute;
+	top: 0;
+	left: 150px;
+	width: 150px;
+}
+
+.menu a {
+	line-height: 40px;
+	padding: 0 12px;
+	margin: 0 12px;
+	color: #fff;
+	display: block;
+	width: 100px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+	color: #bb8cfd;
+}
+
+.menu li li a {
+	border-bottom: solid 1px #bb8cfd;
+	padding: 0;
+}
+
+.menu li li:last-child a {
+	border-bottom: none;
+}
+
+ul .sub-menu {
+	display: none;
+}
+
+.menu span {
+	font-size: 12px;
+	vertical-align: top;
+}
+
+
+/*--- selectbox----*/
+
+.my-select {
+	/*	border: 0.0625em dashed #3a2854;*/
+	padding: 30px 0 20px 100px;
+}
+
+
+/*--checkbox*/
+
+.block-niceCheck,
+.checkbox-css {
+	text-align: center;
+}
+
+
+/*нестандартные чекбоксы: с помощью jquery*/
+
+.niceCheck {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	background: url(../img/checkbox.png);
+	overflow: hidden;
+}
+
+.niceChecked {
+	background-position: 0 -17px;
+}
+
+.niceCheck input {
+	/*display: none;*/
+	margin-left: -100px;
+}
+
+.niceCheckDisabled {
+	background: url(../img/checkbox-disabled.png);
+}
+
+.niceCheckLabel {
+	font-size: 14px;
+	color: #4b395b;
+}
+
+
+/*нестандартные чекбоксы: с помощью css*/
+
+.checkbox-css input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+
+.checkbox-css label::after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox22.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+
+.checkbox-css input[type=checkbox]:checked + label:after {
+	background-position: 0 -17px;
+}
+
+.checkbox-css label:hover:after {
+	background-position: 0 -34px;
+}
+
+.checkbox-css input[type=checkbox]:checked + label:hover:after {
+	background-position: 0 -51px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" media="all" href="css/jquery.selectbox.css" />
+	<script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.js">
+	</script>
+	<script type="text/javascript" src="js/jquery.color.js"></script>
+	<script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
+	<script type="text/javascript" src="js/myjavascript.carousel.js"></script>
+	<script type="text/javascript" src="js/myjavascript.menu.js"></script>
+	<script type="text/javascript" src="js/myjavascript.selectbox.js"></script>
+	<script type="text/javascript" src="js/myjavascript.check.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="sub1-wrapper">
+			<div>
+				<a href="#"> <img class="img1" src="img/roz.png"></a>
+			</div>
+			<div class="jcarousel-wrapper">
+				<div class="jcarousel">
+					<ul>
+						<li><img src="img/img1.jpg" width="600" height="400" alt=""></li>
+						<li><img src="img/img2.jpg" width="600" height="400" alt=""></li>
+						<li><img src="img/img3.jpg" width="600" height="400" alt=""></li>
+						<li><img src="img/img4.jpg" width="600" height="400" alt=""></li>
+						<li><img src="img/img5.jpg" width="600" height="400" alt=""></li>
+					</ul>
+				</div>
+				<!-- Controls --><a href="#" class="jcarousel-control-prev">&lsaquo;</a> <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+				<p class="jcarousel-pagination">
+			</div>
+		</div>
+		<div class="sub2-wrapper">
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Nav 1</a></li>
+					<li><a href="#">Nav 2</a></li>
+					<li class="openout"> <a href="#">Nav 3 <span>&#9660;</span></a>
+						<ul class="sub-menu">
+							<li><a href="#">Nav 3.1</a></li>
+							<li><a href="#">Nav 3.2</a></li>
+							<li><a href="#">Nav 3.3</a></li>
+							<li class="openout"> <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Nav 3.4 <span>&#9660;</span></a>
+								<ul class="sub-menu">
+									<li><a href="#">Nav 3.4.1</a></li>
+									<li class="openout"> <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Nav 3.4.2 <span>&#9660;</span></a>
+										<ul class="sub-menu">
+											<li><a href="#">Nav 3.4.2.1</a></li>
+											<li><a href="#">Nav 3.4.2.2</a></li>
+											<li><a href="#">Nav 3.4.2.3</a></li>
+											<li><a href="#">Nav 3.4.2.4</a></li>
+											<li><a href="#">Nav 3.4.2.5</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Nav 3.4.3</a></li>
+									<li><a href="#">Nav 3.4.4</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Nav 3.5</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Nav 4</a></li>
+					<li><a href="#">Nav 5</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="sub3-wrapper">
+			<div class="my-select">
+				<select id="default-usage-select">
+					<option value="--">Please select your favorite color</option>
+					<option value="01">Red</option>
+					<option value="02">Orange</option>
+					<option value="03">Yellow</option>
+					<option value="04">Green</option>
+					<option value="05">Blue</option>
+					<option value="06">Magenta</option>
+					<option value="07">Violet</option>
+					<option value="08">Ultra-violet</option>
+				</select>
+				<div class="clr"></div>
+			</div>
+			<div class="block-niceCheck">
+				<p>Hестандартные чекбоксы: с помощью jquery</p>
+				<div>
+					<label class="niceCheckLabel" for="ch1">label 1</label> <span class="niceCheck"><input type="checkbox" id="ch1"></span> </div>
+				<div>
+					<label class="niceCheckLabel" for="ch2">label 2</label> <span class="niceCheck"><input type="checkbox" id="ch2"></span> </div>
+				<div>
+					<label class="niceCheckLabel" for="ch3">label 3</label> <span class="niceCheck"><input type="checkbox" id="ch3" disabled></span> </div>
+				<div>
+					<label class="niceCheckLabel" for="ch4">label 4</label> <span class="niceCheck"><input type="checkbox" id="ch4" disabled checked></span> </div>
+			</div>
+			<p>Hестандартные чекбоксы: с помощью css</p>
+			<div class="checkbox-css">
+				<div>
+					<input type="checkbox" id="check1">
+					<label for="check1">checkbox 1</label>
+				</div>
+				<div>
+					<input type="checkbox" id="check2">
+					<label for="check2">checkbox 2</label>
+				</div>
+				<div>
+					<input type="checkbox" id="check3">
+					<label for="check3">checkbox 3</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
